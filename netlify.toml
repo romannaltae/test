@@ -15,6 +15,11 @@ publish = "public/"
 [build.environment]
 HUGO_VERSION = "0.103.0"
 HUGO_BASEURL = "/"
+NEXT_PUBLIC_TINA_BRANCH=main
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=dr8es8hbw
+NEXT_PUBLIC_CLOUDINARY_API_KEY=421911572156776
+CLOUDINARY_API_SECRET=HCMlWmDTH_7cjkI-rYgIfXFPznk
+
 
 
 # активировать при производстве
