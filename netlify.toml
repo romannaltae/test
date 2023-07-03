@@ -5,9 +5,9 @@ status = 200
 
 [build]
 command = """
-  yarn && hugo --minify --gc
+  npm run build && npm run export
   """
-publish = "public/"
+publish = "out/"
 
 [build.environment]
 HUGO_VERSION = "0.103.0"
