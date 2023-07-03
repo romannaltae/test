@@ -11,7 +11,7 @@ const schema = defineSchema({
       process.env.NEXT_PUBLIC_TINA_BRANCH ||
       process.env.NEXT_PUBLIC_VERCEL_GIT_COMMIT_REF ||
       process.env.HEAD,
-    token: process.env.TINA_TOKEN,
+    token: process.env.NEXT_PUBLIC_TINA_TOKEN,
     media: {
       loadCustomStore: async () => {
         const pack = await import('next-tinacms-cloudinary')
