@@ -3,11 +3,11 @@ from = "/*"
 to = "/index.html"
 status = 200
 
-[build]
-command = """
-  npm run build && npm run export
-  """
-publish = "out/"
+#[build]
+#command = """
+#  npm run build && npm run export
+#  """
+#publish = "out/"
 
 [build.environment]
 HUGO_VERSION = "0.103.0"
