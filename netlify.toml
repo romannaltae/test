@@ -5,7 +5,7 @@ status = 200
 
 [build]
 command = """
-  npm i && hugo --minify --gc
+  yarn && hugo --minify --gc
   """
 publish = "public/"
 
