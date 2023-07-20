@@ -3,12 +3,12 @@
   "private": true,
   "scripts": {
     "start": "NODE_ENV=development tinacms dev -c \"next dev\"",
-    "build": "tinacms build && next build",
-    "export": "npm run build && next export",
+    "build": "tinacms build && next build && next export",
     "lint": "npx -y standard --fix"
   },
   "dependencies": {
     "@tinacms/auth": "^0.50.4",
+    "netlify-plugin-cloudinary": "^1.2.0",
     "next": "12.0.3",
     "next-tinacms-cloudinary": "^3.5.30",
     "react": "17.0.2",
