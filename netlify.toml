@@ -14,8 +14,4 @@ status = 200
 
 [plugins.inputs]
 	cloudName = "dr8es8hbw"
-
-	[plugins.inputs]
-		cloudName = "dr8es8hbw"
-		deliveryType = "upload"
-		uploadPreset = "[Your Cloudinary Upload Preset]"
+	deliveryType = "upload"
