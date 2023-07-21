@@ -1,4 +1,7 @@
 module.exports = {
+  images: {
+      domains: ['assets.tina.io'],
+  },
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/i,
