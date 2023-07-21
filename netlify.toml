@@ -5,7 +5,7 @@ status = 200
 
 [build]
 command = """
-  npm run build && npm run export
+  npm run export
   """
 publish = "out/"
 
