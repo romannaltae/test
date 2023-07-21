@@ -1,0 +1,22 @@
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+
+[build]
+command = """
+  npm run export
+  """
+publish = "out/"
+
+[build.environment]
+HUGO_VERSION = "0.103.0"
+HUGO_BASEURL = "/"
+
+[[plugins]]
+package = "netlify-plugin-cloudinary"
+
+  [plugins.inputs]
+  cloudName = "dr8es8hbw"
+  deliveryType = "upload"
+  imagesPath = "/uploads"
